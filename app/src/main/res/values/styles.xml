@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        &lt;!&ndash; Customize your theme here. &ndash;&gt;
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>-->
+
+    <style name="AppThemeLauncher" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@drawable/splash</item>
+        <item name="colorPrimary">@color/colorDkGray</item>
+        <item name="colorPrimaryDark">@color/colorBlack</item>
+        <item name="colorAccent">@color/colorGray</item>
+    </style>
+    
+    <!-- Master Info/instruction TextView -->
+    <style name="master_info">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorDkGray</item>
+        <item name="android:background">@color/colorWhite</item>
+    </style>
+
+    <!-- Master Label TextView -->
+    <style name="master_label">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorDkGray</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <style name="master_delete">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorRed</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/colorDkGray</item>
+    </style>
+
+    <style name="master_database">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/colorDkGray</item>
+    </style>
+
+    <style name="MySpinnerTheme"
+           parent="@android:style/Widget.TextView.SpinnerItem">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/colorBlack</item>
+    </style>
+
+</resources>
